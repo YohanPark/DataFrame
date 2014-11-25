@@ -1,0 +1,19 @@
+var1 <- runif(5)
+var2 <- runif(5)
+data.frame(new.name1 = var1, new.name2 = var2)
+  new.name1  new.name2
+1 0.9658143 0.16985282
+2 0.2662441 0.37762692
+3 0.1374154 0.04857553
+4 0.7738637 0.05170524
+5 0.1480800 0.67682980
+
+x <- data.frame(new.name1 = var1, new.name2 = var2)
+colnames(x) <- c("old.name1", "old.name2")
+x
+  old.name1  old.name2
+1 0.9658143 0.16985282
+2 0.2662441 0.37762692
+3 0.1374154 0.04857553
+4 0.7738637 0.05170524
+5 0.1480800 0.67682980
